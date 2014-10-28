@@ -16,7 +16,7 @@ public class Main {
 			ApplicationContext context = new ClassPathXmlApplicationContext("Sequence-Beans.xml");
 			
 			ISeqGenerator generator = (ISeqGenerator) context.getBean("sequenceGenerator");
-			
+			int limit = 0;
 			for (int i=0; i<limit; i++) {
 				System.out.println(generator.getSequence());
 			}			
