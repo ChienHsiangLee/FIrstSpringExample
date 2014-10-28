@@ -11,7 +11,7 @@
 	</bean>
 	-->
 	<bean id="sequenceGenerator" class="tw.com.gss.spring.sequence.DatePrefixGenerator" >
-		<property name="pattern" value="yyMMdd"></property>
+		<property name="pattern" value="yyyyMM"></property>
 		<property name="prefix" value="CN"></property>
 		<property name="suffix" value="Z"></property>
 		<property name="initial" value="1"></property>
